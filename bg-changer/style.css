@@ -1,0 +1,129 @@
+
+.container {
+    padding: 15px 20px;
+    margin-top: 100px;
+    background: rgba( 0, 0, 0, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    font-weight: 500;
+    font-family: inherit;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.btn-default {
+    background-color: var(--black-color);
+    color: var(--white-color);
+    border: 1px solid var(--white-color);
+}
+.btn-primary {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border: 1px solid var(--white-color);
+}
+
+.btn-secondary {
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+    border: 1px solid var(--white-color);
+}
+
+.btn-success {
+    background-color: var(--success-color);
+    color: var(--white-color);
+    border: 1px solid var(--white-color);
+}
+
+.btn-danger {
+    background-color: var(--danger-color);
+    color: var(--white-color);
+    border: 1px solid var(--white-color);
+}
+
+.btn-warning {
+    background-color: var(--warning-color);
+    color: var(--white-color);
+    border: 1px solid var(--white-color);
+}
+
+.btn-info {
+    background-color: var(--info-color);
+    color: var(--white-color);
+    border: 1px solid var(--white-color);
+}
+
+.btn-dark {
+    background-color: var(--dark-color);
+    color: var(--white-color);
+    border: 1px solid var(--white-color);
+}
+
+.btn-light {
+    background-color: var(--light-color);
+    color: var(--black-color);
+    border: 1px solid var(--black-color);
+}
+
+.btn-white {
+    background-color: var(--white-color);
+    color: var(--black-color);
+    border: 1px solid var(--black-color);
+}
+
+.bg-primary {
+    background-color: var(--primary-color);
+}
+
+.bg-secondary {
+    background-color: var(--secondary-color);
+}
+
+.bg-success {
+    background-color: var(--success-color);
+}
+
+.bg-danger {
+    background-color: var(--danger-color);
+}
+
+.bg-warning {
+    background-color: var(--warning-color);
+}
+
+.bg-info {
+    background-color: var(--info-color);
+}
+
+.bg-dark {
+    background-color: var(--dark-color);
+}
+
+.bg-light {
+    background-color: var(--light-color);
+}
+
+.bg-white {
+    background-color: var(--white-color);
+}
+
+.bg-default {
+    background-color: var(--black-color);
+}
+
+.heading {
+    color: var(--white-color);
+    font-weight: 800;
+}
