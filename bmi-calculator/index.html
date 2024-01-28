@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="../style.css">
+    <link />
+    <link rel="stylesheet" href="./style.css">
+    <link />
+</head>
+
+<body>
+    <nav class="nav-bar">
+        <a class="link" href="/">Home</a>
+    </nav>
+    <div class="container">
+        <h3 class="heading">BMI Calculator</h3>
+        <div class="wrapper">
+            <form>
+                <div class="input-wrapper">
+                    <label>Height (cm):</label>
+                    <div class="input-field-wrapper">
+                        <input type='number' id="height" class="input" min="0" required/>
+                        <span id="height-error" class="error"></span>
+                    </div>
+                </div>
+                <div class="input-wrapper">
+                    <label>Weight (Kg):</label>
+                    <div class="input-field-wrapper">
+                        <input type='number'  id="weight" class="input" min="0" required/>
+                        <span id="weight-error" class="error"></span>
+                    </div>
+                </div>
+                <div id="result">
+
+                </div>
+                <div class="action-wrapper">
+                    <button class="btn" title="Calculate">Calculate</button>
+                </div>
+            </form>
+            <div>
+                <table class="customTable">
+                    <thead>
+                        <tr>
+                            <th>BMI</th>
+                            <th>BMI Category</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td >Less than 15</td>
+                            <td class="warning-bg">Very severely underweight</td>
+                        </tr>
+                        <tr>
+                            <td>Between 15 and 16	</td>
+                            <td class="warning-bg">Severely underweight</td>
+                        </tr>
+                        <tr>
+                            <td>Between 16 and 18.5</td>
+                            <td class="warning-bg">Underweight</td>
+                        </tr>
+                        <tr>
+                            <td>Between 18.5 and 25</td>
+                            <td class="success-bg">Normal (healthy weight)</td>
+                        </tr>
+                        <tr>
+                            <td>Between 25 and 30</td>
+                            <td class="warning-bg">Overweight</td>
+                        </tr>
+                        <tr>
+                            <td>Between 30 and 35</td>
+                            <td class="danger-bg">Moderately obese</td>
+                        </tr>
+                        <tr>
+                            <td>Between 35 and 40</td>
+                            <td class="danger-bg">Severely obese</td>
+                        </tr>
+                        <tr>
+                            <td>Over 40</td>
+                            <td class="danger-bg">Very severely obese</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
