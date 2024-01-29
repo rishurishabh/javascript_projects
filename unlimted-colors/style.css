@@ -1,0 +1,36 @@
+.container {
+    padding: 15px 20px;
+    margin-top: 100px;
+    background: rgba( 0, 0, 0, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.heading {
+    color: var(--white-color);
+    font-weight: 800;
+}
+
+.btn-success {
+    background-color: var(--success-color);
+    color: var(--white-color);
+    border: 1px solid var(--white-color);
+}
+
+.btn-danger {
+    background-color: var(--danger-color);
+    color: var(--white-color);
+    border: 1px solid var(--white-color);
+}
+
+.note {
+    color: var(--warning-color);
+    font-size: smaller;
+}
+
+.acitve {
+    color: var(--white-color);
+}

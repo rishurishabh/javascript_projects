@@ -46,16 +46,32 @@ body {
 }
 
 .main ul li {
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .main ul li a{
     color: var(--white-color);
     text-decoration: none;
+    font-size: large;
+    font-weight: bold;
 }
 
 
 .title {
     color: var(--white-color);
     text-decoration: none;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    font-weight: 500;
+    font-family: inherit;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.btn:hover {
+    opacity: 0.8;
 }

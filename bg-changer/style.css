@@ -10,20 +10,6 @@
     border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
-.btn {
-    padding: 10px 20px;
-    border: none;
-    border-radius: 50px;
-    font-weight: 500;
-    font-family: inherit;
-    cursor: pointer;
-    margin: 10px;
-}
-
-.btn:hover {
-    opacity: 0.8;
-}
-
 .btn-default {
     background-color: var(--black-color);
     color: var(--white-color);
